@@ -1,0 +1,9 @@
+{
+  "//": "Jest runs the TypeScript sources as CommonJS through ts-jest.",
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node10",
+    "verbatimModuleSyntax": false
+  }
+}

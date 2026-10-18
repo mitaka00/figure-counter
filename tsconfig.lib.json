@@ -1,0 +1,10 @@
+{
+  "//": "Library source only. No DOM and no Node.js types: anything environment-specific fails to compile, which keeps the package usable in both Node.js and browsers.",
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2018"],
+    "types": [],
+    "noEmit": true
+  },
+  "include": ["src"]
+}
